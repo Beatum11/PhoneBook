@@ -1,0 +1,21 @@
+﻿@model BookViewModel
+
+<h2>
+    @Model.Id - @Model.Surname - @Model.Name - @Model.FathName - @Model.PhoneNumber -
+    @Model.Adress - @Model.Description
+</h2>
+
+<div class="mb-5">
+    <button style="width:20%"> 
+        <a asp-controller="Test" asp-action="Edit" asp-route-id="@Model.Id">
+        Edit
+        </a>
+         </button>
+
+     <button style="width:20%">
+         <a asp-controller="Test" asp-action="DeleteNote" asp-route-id="@Model.Id">
+        Delete
+        </a>
+        </button>
+</div>                            
+

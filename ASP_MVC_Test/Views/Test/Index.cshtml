@@ -1,0 +1,16 @@
+﻿@model List<ASP_MVC_Test.Models.BookViewModel>;
+
+
+<h1>List of notes:</h1>
+<hr />  
+
+<ul>
+    @foreach (var note in Model)
+    {
+        <li>
+           <h5> <a asp-controller="Test" asp-action="ShowNote" asp-route-id="@note.Id">
+               @note.Id</a>
+               - @note.Surname -  @note.Name -  @note.FathName </h5>
+        </li>
+    }
+</ul>

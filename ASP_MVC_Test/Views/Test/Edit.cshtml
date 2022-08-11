@@ -1,0 +1,70 @@
+﻿@model BookViewModel;
+
+
+<h1>Обновить запись</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-6">
+
+        <div class="card">
+
+            <div class="card-header">
+                <h5>Здесь можно обновить существующую запись: </h5>
+            </div>
+
+            <div class="card-body">
+
+                <form asp-controller="Test" asp-action="EditNote" asp-route-id="@Model.Id">
+                    
+                    <div class="mb-3">
+                        <label class="form-label">Введите фамилию</label>
+                        <input asp-for="Surname" type="text" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Введите имя</label>
+                        <input asp-for="Name" type="text" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Введите отчество</label>
+                        <input asp-for="FathName" type="text" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Введите номер телефона</label>
+                        <input asp-for="PhoneNumber" type="text" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Введите адрес</label>
+                        <input asp-for="Adress" type="text" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Введите доп. описание</label>
+                        <input asp-for="Description" type="text" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Сохранить</button>
+
+                    </div>
+
+                </form>
+
+
+            </div>
+
+            <div class="card-footer">
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>
