@@ -9,7 +9,7 @@ In this project I dived a little more into:
 - EF Core
 - CRUD Operations
 - RESTful API
-- HTTP (GET, POST, PUT, PATCH, DELETE)
+- HTTP (GET, POST, PUT, DELETE)
 - Newtonsoft JSON
 ________________________________________
 
