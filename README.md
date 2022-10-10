@@ -4,7 +4,7 @@ In this project I dived a little more into:
 
 - C# | ASP.NET Core MVC | .NET 6
 - WPF | Xaml
-- Razor Pages
+- Blazor
 - Bootstrap | CSS
 - EF Core
 - CRUD Operations
