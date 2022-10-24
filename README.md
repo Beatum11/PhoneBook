@@ -46,5 +46,3 @@ ________________________________________
 ![Снимок экрана (67)](https://user-images.githubusercontent.com/106334144/184167627-f9113122-12e1-4413-b393-f30da72fa7d0.png)
 ![Снимок экрана (68)](https://user-images.githubusercontent.com/106334144/184167638-1ce6faea-8561-4e70-8fd4-98f06cec7f45.png)
 ________________________________________
-
-# I created this project in one week.
